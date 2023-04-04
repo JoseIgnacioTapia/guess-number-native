@@ -1,5 +1,5 @@
-import { TextInput, View } from 'react-native';
-import { StyleSheet } from 'react-native-web';
+import { TextInput, View, StyleSheet } from 'react-native';
+
 import PrimaryButton from '../components/PrimaryButton';
 
 function StartGameScreen() {
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     padding: 16,
     backgroundColor: '#3b021f',
     borderRadius: 8,
-    elevation: 8,
+    elevation: 4,
     shadowColor: 'black',
     shadowOffset: { width: 0, height: 2 },
     shadowRadius: 6,
