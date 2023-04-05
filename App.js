@@ -3,7 +3,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import StartGameScreen from './screens/StartGameScreen';
 import { useState } from 'react';
 import GameScreen from './screens/GameScreen';
-import Colors from '../constants/colors';
+import Colors from './constants/colors';
 
 export default function App() {
   const [userNumber, setUserNumber] = useState();
