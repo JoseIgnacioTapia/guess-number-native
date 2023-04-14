@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     height: '100',
   },
   summaryText: {
-    fontFamuly: 'open-sans',
+    fontFamily: 'open-sans',
     fontSize: 24,
     textAlign: 'center',
     marginBottom: 24,
